@@ -1,7 +1,7 @@
 import React from "react";
 
-import Title from "../components/Title";
-import Die from "../components/Die";
+import Title from "../Components/Title";
+import Die from "../Components/Die";
 import Confetti from "react-confetti";
 
 export default function App() {

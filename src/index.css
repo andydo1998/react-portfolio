@@ -1,0 +1,346 @@
+body {
+    background: #23283e;
+    padding: 50px;
+}
+
+.header--title {
+    text-align: center;
+    font-size: 50px;
+    color: #cdcdff;
+}
+
+.header--title2 {
+    text-align: center;
+    font-size: 25px;
+    color: #cdcdff;
+}
+
+.header--description {
+    text-align: center;
+    color: #cdcdff;
+    inline-size: 700px;
+}
+
+.header--description--container {
+    display: flex;
+    justify-content: center;
+}
+
+.header--disclaimer--container {
+    display: flex;
+    justify-content: center;
+}
+
+.header--disclaimer {
+    text-align: center;
+    color: #cdcdff;
+    inline-size: 700px;
+}
+
+.header--started--text {
+    text-align: center;
+    color: #E6BF33;
+    font-size: 50px;
+}
+
+.section_1--container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_1--text {
+    inline-size: 500px;
+    color: #FF8100;
+    overflow-wrap: break-word;
+}
+
+.section_1--title {
+    color: #FF8100;
+    font-size: 50px;
+}
+
+.business-card--container {
+    width: 200px;
+}
+
+.profilePic {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1A1B21;
+    margin-top: -3%;
+    padding-top: 10%;
+    font-size: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1A1B21;
+    padding-top: 10%;
+    margin-top: -12%;
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1A1B21;
+    padding-top: 2%;
+    margin-top: -8%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1A1B21;
+    padding-top: 10%;
+    margin-top: -10%;
+    text-align: justify;
+}
+
+.githubImg {
+    width: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.linkedinImg {
+    width: 15px;
+    padding-top: 5px;
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    background: #FFFFFF;
+    margin-top: 1%;
+    margin-bottom: 15%;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.about--container {
+    width: 200px;
+}
+
+.about {
+    position: absolute;
+    left: 70%;
+    
+    color: #F5F5F5;
+    background: #1A1B21;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.about--text {
+    display: flex;
+    color: #A39F9F;
+    max-width: 100%;
+    width: 20.25%;
+    background: #1A1B21;
+    margin-left: -0.6%;
+    margin-right: 5%;
+    margin-top: -1.2%;
+    text-align: center;
+    padding-top: .5%;
+    padding-left: 1%;
+    font-size: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+.Interests {
+    display: flex;
+    color: #F5F5F5;
+    max-width: 100%;
+    width: 20%;
+    background: #1A1B21;
+    margin-top: -1%;
+    padding-top: 2%;
+    text-align: center;
+    padding-left: 1%;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.interests--text {
+    display: flex;
+    color: #A39F9F;
+    max-width: 100%;
+    width: 20%;
+    background: #1A1B21;
+    margin-right: 5%;
+    margin-top: -1.2%;
+    text-align: center;
+    padding-top: .5%;
+    padding-left: 1%;
+    font-size: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.Footer {
+    background-color: #161619;
+    color: #A39F9F;
+    max-width: 100%;
+    width: 20%;
+    margin-top: -2%;
+    padding-left: 2%;
+    padding-top: .2%;
+}
+
+.tenzies--main {
+    background: #F5F5F5;
+    border-radius: 10px;
+    height: 650px;
+    width: 500px;
+}
+
+.tenzies--title--container {
+    padding-top: 60px;
+}
+
+.tenzies--title--name {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.6px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #2B283A;
+}
+
+.tenzies--title--description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.1072px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #4A4E74;
+    padding-top: 25px;
+}
+
+.die--hold {
+    background: #59E391;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.8px;
+    height: 100px;
+    width: 60px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #2B283A;
+}
+
+.die--open {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.8px;
+    height: 100px;
+    width: 60px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #2B283A;
+}
+
+.dice--container {
+    padding: 50px;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 30px;
+    place-items: center;
+}
+
+.roll--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roll--button {
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background: #5035FF;
+    box-shadow: 0px 3.2px 7.7px rgba(0, 0, 0, 0.2);
+    border-radius: 3.8px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.numRoll--container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2B283A;
+}
+
+.prevBest--container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #2B283A;
+}

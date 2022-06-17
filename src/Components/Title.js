@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Title() {
     return (
-        <div className="title--container">
-            <div className="title--name">
+        <div className="tenzies--title--container">
+            <div className="tenzies--title--name">
                 Tenzies
             </div>
-            <div className="title--description">
+            <div className="tenzies--title--description">
                 Roll until all dices are the same. Click dice to freeze the current value.
             </div>
         </div>

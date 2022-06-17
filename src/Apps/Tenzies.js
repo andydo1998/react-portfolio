@@ -4,7 +4,7 @@ import Title from "../Components/Title";
 import Die from "../Components/Die";
 import Confetti from "react-confetti";
 
-export default function App() {
+export default function Tenzies() {
     // variable to change the number of die to appear (default: 10)
     const NUMBER_OF_DIE = 10;
 
@@ -83,6 +83,7 @@ export default function App() {
     // function used to display winning message
     function winningMessage() {
         alert(`You won in ${numRoll} rolls!`);
+        return <Confetti />;
     }
 
     // function used to reset the game (called once the user has won)
@@ -97,8 +98,8 @@ export default function App() {
     }
 
     return (
-        <main>
-            {userWon() && (winningMessage() && <Confetti />)}
+        <main className="tenzies--main">
+            {userWon() && winningMessage()}
             <Title />
             <div className="dice--container">
                 {allDice}

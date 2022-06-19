@@ -4,7 +4,7 @@ import Digital_Business_Card from "../Apps/Digital_Business_Card"
 
 export default function Section_1() {
     return (
-        <div className="section_1--container">
+        <div className="section--container">
             <div>
                 <p className="section_1--title">
                     Section 1: Static Pages
@@ -39,7 +39,7 @@ export default function Section_1() {
                     </p>
                 </div>
             </div>
-            <div className="section_1--project">
+            <div>
                 <Digital_Business_Card />
             </div>
         </div>

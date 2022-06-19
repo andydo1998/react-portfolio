@@ -21,7 +21,7 @@ body {
     inline-size: 700px;
 }
 
-.header--description--container {
+.header--description--container, .section_3--description--container {
     display: flex;
     justify-content: center;
 }
@@ -43,7 +43,7 @@ body {
     font-size: 50px;
 }
 
-.section_1--container {
+.section--container {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5%;
@@ -207,19 +207,16 @@ body {
     padding-bottom: 2%;
 }
 
-.Footer {
-    background-color: #161619;
-    color: #A39F9F;
-    max-width: 100%;
-    width: 20%;
-    margin-top: -2%;
-    padding-left: 2%;
-    padding-top: .2%;
+.section_2--text {
+    inline-size: 500px;
+    color: #FF8100;
+    overflow-wrap: break-word;
+    padding-bottom: 20px;
 }
 
-.section_2--container {
-    display: flex;
-    justify-content: space-evenly;
+.section_2--title {
+    color: #FF8100;
+    font-size: 50px;
 }
 
 .travel_journal--container {
@@ -323,6 +320,146 @@ body {
     color: #2B283A;
     font-family: 'Inter';
     font-style: normal;
+}
+
+.section_3--title {
+    display: flex;
+    justify-content: center;
+    color: #FF8100;
+    font-size: 50px;
+}
+
+.section_3--text {
+    color: #FF8100;
+    padding-bottom: 20px;
+    text-align: center;
+    inline-size: 700px;
+}
+
+.meme-generator--container {
+    width: 800px;
+    justify-content: center;
+}
+
+.meme--header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.meme--input {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    width: 500px;
+    height: 45px;
+
+}
+
+.meme--logo {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.meme--title {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding-left: 200px;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+
+.meme--course {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-right: 200px;
+}
+
+.meme {
+    background: white;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.meme--button--section {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.meme--button {
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.windowImage {
+    width: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.meme--image--container {
+    padding: 50px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.meme--image {
+    width: 500px;
+    height: 400px;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 40px;
+}
+
+.top {
+    top: 330px;
 }
 
 .tenzies--main {

@@ -21,7 +21,9 @@ export default function Header() {
             </div>
             <div className="header--disclaimer--container">
                 <p className="header--disclaimer">
-                    Disclaimer: By no means am I an expert. Each source code will be linked,
+                    Disclaimer: None of the public images used are mine. These pictures
+                    are used for educational and demonstrational purposes. All credits go to the
+                    original creator. By no means am I an expert. Each source code will be linked,
                     but they are definitely not efficient nor optimal. Throughout the course, my code
                     becomes significantly better, but I still chose to keep my old code so I can
                     look back and reflect (AKA laugh at myself). You can never get better if you don't start 

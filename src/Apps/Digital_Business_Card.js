@@ -14,12 +14,3 @@ export default function Digital_Business_Card() {
         </div>
     )
 };
-
-/*
-<div className="business-card--container">
-<Info />
-<About />
-<Interests />
-<Footer />
-</div>
-*/

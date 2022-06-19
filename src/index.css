@@ -46,12 +46,14 @@ body {
 .section_1--container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 
 .section_1--text {
     inline-size: 500px;
     color: #FF8100;
     overflow-wrap: break-word;
+    padding-bottom: 20px;
 }
 
 .section_1--title {
@@ -60,7 +62,7 @@ body {
 }
 
 .business-card--container {
-    width: 200px;
+    width: 250px;
 }
 
 .profilePic {
@@ -102,8 +104,8 @@ body {
     align-items: center;
     justify-content: center;
     background: #1A1B21;
-    padding-top: 2%;
-    margin-top: -8%;
+    padding-top: 3%;
+    margin-top: -5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -139,24 +141,20 @@ body {
     justify-content: center;
     text-align: center;
     height: 30px;
-    width: 80px;
+    width: 100px;
     background: #FFFFFF;
-    margin-top: 1%;
+    margin-top: 0%;
     margin-bottom: 15%;
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
 
-.about--container {
-    width: 200px;
-}
-
-.about {
-    position: absolute;
-    left: 70%;
-    
+.about {    
     color: #F5F5F5;
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-left: 5%;
     background: #1A1B21;
     text-align: left;
     font-size: 25px;
@@ -166,17 +164,12 @@ body {
 }
 
 .about--text {
-    display: flex;
     color: #A39F9F;
-    max-width: 100%;
-    width: 20.25%;
     background: #1A1B21;
-    margin-left: -0.6%;
-    margin-right: 5%;
-    margin-top: -1.2%;
     text-align: center;
-    padding-top: .5%;
-    padding-left: 1%;
+    margin-top: -10%;
+    padding-top: 8%;
+    padding-left: 5%;
     font-size: 10px;
     font-family: 'Inter';
     font-style: normal;
@@ -187,13 +180,11 @@ body {
 .Interests {
     display: flex;
     color: #F5F5F5;
-    max-width: 100%;
-    width: 20%;
     background: #1A1B21;
-    margin-top: -1%;
-    padding-top: 2%;
+    margin-top: -5%;
+    padding-top: 5%;
     text-align: center;
-    padding-left: 1%;
+    padding-left: 5%;
     font-size: 25px;
     font-family: 'Inter';
     font-style: normal;
@@ -203,14 +194,11 @@ body {
 .interests--text {
     display: flex;
     color: #A39F9F;
-    max-width: 100%;
-    width: 20%;
     background: #1A1B21;
-    margin-right: 5%;
-    margin-top: -1.2%;
+    margin-top: -10%;
+    padding-top: 8%;
+    padding-left: 5%;
     text-align: center;
-    padding-top: .5%;
-    padding-left: 1%;
     font-size: 10px;
     font-family: 'Inter';
     font-style: normal;
@@ -227,6 +215,114 @@ body {
     margin-top: -2%;
     padding-left: 2%;
     padding-top: .2%;
+}
+
+.section_2--container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.travel_journal--container {
+    width: 450px;
+}
+
+.travel--a:visited { 
+    text-decoration: none; 
+    color: #918E9B;
+}
+
+.travel--a {
+    text-decoration: none; 
+    color: #918E9B;
+}
+
+.travel--header {
+    background: #F55A5A;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    padding-bottom: 3%;
+}
+
+.travel--card {
+    padding-left: 30px;
+    display: flex;
+    padding-top: 30px;
+    background: white;
+}
+
+.travel--card--img {
+    width: 100px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.pin {
+    width: 25px;
+    height: 25px;
+}
+
+.travel--location {
+    display: flex;
+    padding-top: 20px;
+}
+
+.travel--location--text {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.travel--location--google {
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    padding-left: 1%;
+    white-space: nowrap;
+    color: #918E9B;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.travel--title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B283A;
+    font-family: 'Inter';
+    font-style: normal;
+    padding-left: 2%;
+    margin-top: -7%;
+}
+
+.travel--date {
+    padding-left: 2%;
+    margin-top: -5%;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    white-space: nowrap;
+}
+
+.travel--description {
+    padding-left: 2%;
+    font-weight: 400;
+    font-size: 10.25px;
+    line-height: 150%;
+    color: #2B283A;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 .tenzies--main {

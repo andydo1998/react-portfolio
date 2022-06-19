@@ -9,6 +9,8 @@ export default function Digital_Business_Card() {
     return (
         <div className="business-card--container">
             <Info />
+            <About />
+            <Interests />
         </div>
     )
 };

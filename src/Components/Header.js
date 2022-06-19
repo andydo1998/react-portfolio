@@ -10,10 +10,10 @@ export default function Header() {
                     A little bit about myself!<br /><br />
                     I recently graduated from University of California, San Diego (June 12th, 2022) 
                     with a Data Science degree. I made this little portfolio to demonstrate
-                    the materials I have learned within 3 weeks. Over the past 3 weeks, I've been
+                    the materials I have learned within 3 weeks. Over the past 3 weeks, I have been
                     learning React via a 12 hour course on YouTube, offered by freeCodeCamp.org
                     (thank you freeCodeCamp!).
-                    Through this course, I was able to learn the importance of React, as well as
+                    Through this course, I was able to learn how React works, as well as
                     building projects for each section of the course. In this little portfolio,
                     I will show off the projects I've made, as well as an outline of the topics
                     I have learned through this course!
@@ -24,7 +24,7 @@ export default function Header() {
                     Disclaimer: By no means am I an expert. Each source code will be linked,
                     but they are definitely not efficient nor optimal. Throughout the course, my code
                     becomes significantly better, but I still chose to keep my old code so I can
-                    look back and laugh at myself. You can never get better if you don't start 
+                    look back and reflect (AKA laugh at myself). You can never get better if you don't start 
                     somewhere.
                 </p>
             </div>

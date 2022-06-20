@@ -1,11 +1,11 @@
 import React from "react";
 
-import Digital_Business_Card from "../Apps/Digital_Business_Card"
+import DigitalBusinessCard from "../Apps/Digital_Business_Card"
 
 export default function Section_1() {
     return (
         <div className="section--container">
-            <div>
+            <div className="section--div">
                 <p className="section_1--title">
                     Section 1: Static Pages
                 </p>
@@ -40,7 +40,7 @@ export default function Section_1() {
                 </div>
             </div>
             <div>
-                <Digital_Business_Card />
+                <DigitalBusinessCard />
             </div>
         </div>
     )

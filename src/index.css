@@ -21,7 +21,7 @@ body {
     inline-size: 700px;
 }
 
-.header--description--container, .section_3--description--container {
+.header--description--container, .section_3--description--container, .section_3--project-container {
     display: flex;
     justify-content: center;
 }
@@ -47,6 +47,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5%;
+}
+
+.section--div {
+    padding-right: 10%;
 }
 
 .section_1--text {
@@ -220,7 +224,7 @@ body {
 }
 
 .travel_journal--container {
-    width: 450px;
+    width: 550px;
 }
 
 .travel--a:visited { 
@@ -255,7 +259,7 @@ body {
 }
 
 .travel--card--img {
-    width: 100px;
+    width: 125px;
     height: 200px;
     border-radius: 20px;
 }
@@ -336,24 +340,50 @@ body {
     inline-size: 700px;
 }
 
+.section_3--list--container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_3--ul--list {
+    color: #FF8100;
+    inline-size: 600px;
+}
+
+.section_3--project-introduction {
+    color: #FF8100;
+    text-align: center;
+    inline-size: 900px;
+}
+
+.section_3--project-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
 .meme-generator--container {
     width: 800px;
     justify-content: center;
+}
+
+.section_3--meme-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .meme--header {
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     height: 75px;
     display: flex;
-    align-items: center;
 }
 
-.meme--input {
+input {
     border: 1px solid #D5D4D8;
     border-radius: 5px;
-    width: 500px;
+    width: 300px;
     height: 45px;
-
 }
 
 .meme--logo {
@@ -368,7 +398,7 @@ body {
     font-size: 20px;
     line-height: 50px;
     letter-spacing: 2px;
-    padding-left: 200px;
+    padding-left: 100px;
     color: #FFFFFF;
     margin-right: auto;
 }
@@ -380,7 +410,7 @@ body {
     font-size: 12px;
     line-height: 50px;
     color: #FFFFFF;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .meme {
@@ -396,6 +426,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background: white;
 }
 
 .meme--button {
@@ -417,6 +448,7 @@ body {
 }
 
 .meme--image--container {
+    background: white;
     padding: 50px;
     display: flex; 
     align-items: center; 
@@ -455,11 +487,11 @@ body {
 }
 
 .bottom {
-    bottom: 40px;
+    top: 3880px;
 }
 
 .top {
-    top: 330px;
+    top: 3560px;
 }
 
 .tenzies--main {

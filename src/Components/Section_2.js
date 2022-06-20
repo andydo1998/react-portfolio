@@ -1,12 +1,12 @@
 import React from "react";
 
-import Travel_Journal from "../Apps/Travel_Journal"
+import TravelJournal from "../Apps/Travel_Journal"
 
 export default function Section_2() {
     return (
         <div className="section--container">
-            <div>
-                <Travel_Journal />
+            <div className="section--div">
+                <TravelJournal />
             </div>
             <div>
                 <p className="section_2--title">

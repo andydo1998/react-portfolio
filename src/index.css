@@ -487,7 +487,6 @@ input {
 .bottom {
     position: absolute;
     top: 350px;
-    border: 2px solid red;
 }
 
 .top {

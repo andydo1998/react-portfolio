@@ -71,8 +71,8 @@ export default function Meme() {
             <section className="meme--image--container">
                 <img src={meme.url} className="meme--image" alt="meme" />
                 <h2 className="meme--text top">{meme.topText}</h2>
-            </section>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
+            </section>
         </div>
     )
 };

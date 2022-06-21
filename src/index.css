@@ -448,6 +448,7 @@ input {
 }
 
 .meme--image--container {
+    position: relative;
     background: white;
     padding: 50px;
     width: 700px;
@@ -463,7 +464,6 @@ input {
 }
 
 .meme--text {
-    position: absolute;
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
@@ -485,11 +485,13 @@ input {
 }
 
 .bottom {
-    width: 500px;
+    position: absolute;
+    top: 350px;
     border: 2px solid red;
 }
 
 .top {
+    position: absolute;
     margin: 1;
 }
 

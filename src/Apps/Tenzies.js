@@ -6,7 +6,7 @@ import Confetti from "react-confetti";
 
 export default function Tenzies() {
     // variable to change the number of die to appear (default: 10)
-    const NUMBER_OF_DIE = 2;
+    const NUMBER_OF_DIE = 10;
 
     // state for all dice
     const [dice, setDice] = React.useState(allNewDice());

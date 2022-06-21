@@ -6,7 +6,7 @@ import Confetti from "react-confetti";
 
 export default function Tenzies() {
     // variable to change the number of die to appear (default: 10)
-    const NUMBER_OF_DIE = 10;
+    const NUMBER_OF_DIE = 2;
 
     // state for all dice
     const [dice, setDice] = React.useState(allNewDice());
@@ -83,7 +83,7 @@ export default function Tenzies() {
     // function used to display winning message
     function winningMessage() {
         alert(`You won in ${numRoll} rolls!`);
-        return <Confetti />;
+        return <Confetti height={5000} gravity={2} />;
     }
 
     // function used to reset the game (called once the user has won)

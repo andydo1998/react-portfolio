@@ -13,6 +13,7 @@ export default function Section_4() {
                     an adventure to learn React and I hope that this little portfolio has shown you the amount
                     of content I have learned in the past weeks. To finish things off, here's this little Tenzies game
                     that I made!
+                    <br />
                 </p>
             </div>
             <div className="tenzies--container">

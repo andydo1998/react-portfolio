@@ -71,6 +71,11 @@ export default function Section_3() {
                     meme format (top text followed by bottom text on top of a meme image). Not all memes follow this format,
                     and because this API returns the 100 most commonly used meme image, we might get a meme image that does
                     not follow this format.
+                    <p>
+                        <a href="https://github.com/andydo1998/react-portfolio/blob/master/src/Apps/Meme_Generator.js">App Source Code</a>
+                        <br />
+                        <a href="https://github.com/andydo1998/react-portfolio/tree/master/src/Components/Meme_Generator">Component Source Code</a>
+                    </p>
                 </div>
             </div>
             <div className="section_3--meme-container">

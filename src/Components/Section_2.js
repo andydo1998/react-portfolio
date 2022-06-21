@@ -50,6 +50,11 @@ export default function Section_2() {
                         as I need. In the case that I want to make a new listing, I can simply add onto my database and the new listing will
                         be rendered. No longer do I have to hard code the entire component!
                     </p>
+                    <p>
+                    <a href="https://github.com/andydo1998/react-portfolio/blob/master/src/Apps/Travel_Journal.js">App Source Code</a>
+                    <br />
+                    <a href="https://github.com/andydo1998/react-portfolio/tree/master/src/Components/Travel_Journal">Component Source Code</a>
+                    </p>
                 </div>
             </div>
         </div>

@@ -37,6 +37,11 @@ export default function Section_1() {
                         (I don't have a LinkedIn (yet!) so the button will just redirect you to
                         the homepage)
                     </p>
+                    <p>
+                        <a href="https://github.com/andydo1998/react-portfolio/blob/master/src/Apps/Digital_Business_Card.js">App Source Code</a>
+                        <br />
+                        <a href="https://github.com/andydo1998/react-portfolio/tree/master/src/Components/Digital_Business_Card">Component Source Code</a>
+                    </p>
                 </div>
             </div>
             <div>

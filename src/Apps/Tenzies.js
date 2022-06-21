@@ -1,7 +1,7 @@
 import React from "react";
 
-import Title from "../Components/Title";
-import Die from "../Components/Die";
+import Title from "../Components/Tenzies/Title";
+import Die from "../Components/Tenzies/Die";
 import Confetti from "react-confetti";
 
 export default function Tenzies() {

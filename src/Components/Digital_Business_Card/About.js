@@ -10,9 +10,8 @@ export default function About() {
                 and through hard work and determination, I was able to graduate from University
                 of California, San Diego. From very early on, my parents saved up enough money to be able
                 to afford our first computer. This starts my obsession with computers, as I was fascinated
-                with how many components were part of a computer, as well as how they all connect to
-                present us with a much more simpler user interface. At this point, I knew that I would
-                have a career in technology.
+                with how many components were part of a computer, as they all work together to get a computer
+                working functionally. From this point, I knew that I would have a career in technology.
             </p>
         </div>
     )

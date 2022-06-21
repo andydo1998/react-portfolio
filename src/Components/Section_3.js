@@ -4,7 +4,7 @@ import MemeGenerator from "../Apps/Meme_Generator"
 
 export default function Section_3() {
     return (
-        <div>
+        <div id="section3">
             <div className="section_3--title">
                 Section 3: Interactive Web Apps
             </div>

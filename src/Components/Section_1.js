@@ -6,7 +6,7 @@ export default function Section_1() {
     return (
         <div className="section--container">
             <div className="section--div">
-                <p className="section_1--title">
+                <p id="section1" className="section_1--title">
                     Section 1: Static Pages
                 </p>
                 <div className="section_1--text">

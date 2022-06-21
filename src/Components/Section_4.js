@@ -4,7 +4,7 @@ import Tenzies from "../Apps/Tenzies";
 
 export default function Section_4() {
     return (
-        <div className="section_4--container">
+        <div id="section4" className="section_4--container">
             <div className="section_4--description-container">
                 <p className="section_4--description">
                     If you got here, I want to thank you so much 

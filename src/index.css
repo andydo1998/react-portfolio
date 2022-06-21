@@ -3,6 +3,17 @@ body {
     padding: 50px;
 }
 
+.navbar--container {
+    background-color: #4285f4;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: purple;
+    font-family: 'Courier New';
+    padding-top: 20px;
+}
+
 .header--title {
     text-align: center;
     font-size: 50px;

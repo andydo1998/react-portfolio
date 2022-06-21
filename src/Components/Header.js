@@ -3,6 +3,12 @@ import React from "react";
 export default function Header() {
     return (
         <div>
+            <navbar className="navbar--container">
+                <a href="#section1">Section 1: Static Pages</a>
+                <a href="#section2">Section 2: Data Driven Pages</a>
+                <a href="#section3">Section 3: Interactive Web Apps</a>
+                <a href="#section4">Section 4: Tenzies Game!</a>
+            </navbar>
             <h1 className="header--title">Hi there! My name is Andy.</h1>
             <p className="header--title2">Welcome to my React Portfolio!</p>
             <div className="header--description--container">

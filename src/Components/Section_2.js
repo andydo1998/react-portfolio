@@ -4,7 +4,7 @@ import TravelJournal from "../Apps/Travel_Journal"
 
 export default function Section_2() {
     return (
-        <div className="section--container">
+        <div id="section2" className="section--container">
             <div className="section--div">
                 <TravelJournal />
             </div>

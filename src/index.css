@@ -487,11 +487,11 @@ input {
 }
 
 .bottom {
-    top: 3880px;
+    margin-top: 23%;
 }
 
 .top {
-    top: 3560px;
+    margin-bottom: 23%;
 }
 
 .section_4--container {

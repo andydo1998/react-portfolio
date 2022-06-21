@@ -14,6 +14,10 @@ export default function Section_4() {
                     of content I have learned in the past weeks. To finish things off, here's this little Tenzies game
                     that I made!
                     <br />
+                    <br />
+                    <a href="https://github.com/andydo1998/react-portfolio/blob/master/src/Apps/Tenzies.js">App Source Code</a>
+                    <br />
+                    <a href="https://github.com/andydo1998/react-portfolio/tree/master/src/Components/Tenzies">Component Source Code</a>
                 </p>
             </div>
             <div className="tenzies--container">

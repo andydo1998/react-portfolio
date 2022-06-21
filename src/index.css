@@ -450,8 +450,9 @@ input {
 .meme--image--container {
     background: white;
     padding: 50px;
+    width: 700px;
+    height: 450px;
     display: flex; 
-    align-items: center; 
     justify-content: center;
 }
 
@@ -463,12 +464,9 @@ input {
 
 .meme--text {
     position: absolute;
-    width: 80%;
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    margin: 15px 0;
-    padding: 0 5px;
     font-family: impact, sans-serif;
     font-size: 2em;
     text-transform: uppercase;
@@ -487,11 +485,12 @@ input {
 }
 
 .bottom {
-    margin-top: 23%;
+    width: 500px;
+    border: 2px solid red;
 }
 
 .top {
-    margin-bottom: 23%;
+    margin: 1;
 }
 
 .section_4--container {

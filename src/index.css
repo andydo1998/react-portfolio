@@ -8,12 +8,12 @@ html {
 }
 
 .navbar--container {
-    background-color: #4285f4;
+    background-color: #999999;
     width: auto;
     height: 50px;
     display: flex;
     justify-content: space-evenly;
-    color: purple;
+    color: white;
     font-family: 'Courier New';
     padding-top: 20px;
 }
